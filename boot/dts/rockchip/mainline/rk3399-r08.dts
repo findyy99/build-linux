@@ -473,6 +473,7 @@
 		regulator-always-on;
 		regulator-boot-on;
 		vin-supply = <&vcc_sys>;
+		status = "okay";
 
 		regulator-state-mem {
 			regulator-on-in-suspend;
